@@ -39,7 +39,7 @@ public class Aaimplementation {
 
 
     public static void main(String[] args) {
-        Stack<Integer> s = new Stack<>(5);
+      Aaimplementation  s = new Aaimplementation();
         s.push(10);
         s.push(20);
         s.push(30);

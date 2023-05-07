@@ -9,12 +9,11 @@ public class collectionstack {
         s.push(30);
         s.push(40);
 
-        while(!s.isEmpty()){   // yeh kya hai    
-            System.out.println(s.peek());
-            s.pop();
+        while(!s.isEmpty()){     
+            System.out.println(s.pop());
+            // s.pop();
         }
 
 
-        System.out.println(s);
     }
 }
