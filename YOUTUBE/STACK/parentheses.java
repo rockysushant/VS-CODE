@@ -11,12 +11,16 @@ public class parentheses {
 
             if(ch == '(' || ch == '{' || ch == '['){
                 s.push(ch);
-            }else{
+            }
+            else{
 
                 if(s.isEmpty()){
                     return false;
                 }
-                if((s.peek() == '(' && ch == ')') || (s.peek() == '{' && ch == '}') || (s.peek() == '{' && ch == '}')){
+                if((s.peek() == '(' && ch == ')')
+                || (s.peek() == '{' && ch == '}')
+                || (s.peek() == '{' && ch == '}'))
+                {
                     s.pop();
 
                 }else{

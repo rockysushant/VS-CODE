@@ -17,7 +17,7 @@ public class reverseStringUsingStack {
             result.append(curr);
         }
 
-        str = result.toString();
+        return str = result.toString();
 
     }
 
