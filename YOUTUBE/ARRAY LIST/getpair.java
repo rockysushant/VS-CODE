@@ -8,7 +8,6 @@ public class getpair {
             for(int j = i+1; i<number.length; j++){
                 System.out.println("(" + curr +"," + number[j] + ") ");
             }
-
             System.out.println();
         }
     }

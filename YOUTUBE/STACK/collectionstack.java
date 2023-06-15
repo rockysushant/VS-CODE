@@ -13,7 +13,5 @@ public class collectionstack {
             System.out.println(s.pop());
             // s.pop();
         }
-
-
     }
 }

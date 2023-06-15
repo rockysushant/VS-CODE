@@ -1,4 +1,3 @@
-
 import java.util.PriorityQueue;
 
 public class Aaa {
@@ -6,6 +5,7 @@ public class Aaa {
     public static void main(String[] args) {
         
         PriorityQueue<Integer> pq = new PriorityQueue<>();
+
         pq.add(3);
         pq.add(4);
         pq.add(1);
