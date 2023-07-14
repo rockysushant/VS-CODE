@@ -6,7 +6,7 @@ public class parentheses {
         Stack<Character> s = new Stack<>();
 
         for (int i = 0; i < str.length(); i++) {
-            char ch = str.charAt(i);
+            char ch = str.charAt(i);                  // WHAT IS THIS
 
             if (ch == '(' || ch == '{' || ch == '[') {
                 s.push(ch);
@@ -14,7 +14,7 @@ public class parentheses {
 
                 if (s.isEmpty()) {
                     return false;
-                }
+                }                                 // YEH ELSE WALE PART MEIN AAGAY NA?
                 if ((s.peek() == '(' && ch == ')')
                         || (s.peek() == '{' && ch == '}')
                         || (s.peek() == '{' && ch == '}')) {
@@ -31,11 +31,11 @@ public class parentheses {
         } else {
             return false;
         }
-    }
+    }                                                            // BRACCKETS BHI STORAGE LETA HAI JUST LIKE DATATTYPES?
 
     public static void main(String[] args) {
 
-        String str = "{()}";
+        String str = "{(}";
         System.out.println(isValid(str));
 
     }

@@ -75,4 +75,27 @@ public class demo {
         System.out.println("\nLinked List after Deletion at position 4: ");
 
     }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    //jdivhidhvdovihodihvvn
+    nioodnv
+
+    //ncwdncoidcnwdc
+    //ndiobcowibcw'c
+    //dicbwducbbcuwi
+    //bicbowcnowncw
+
 }
